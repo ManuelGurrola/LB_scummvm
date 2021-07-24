@@ -6,6 +6,7 @@ import string
 args_len = len(sys.argv)
 if args_len != 2:
     print("\nArgument must be only the path to 'scummvm.ini'")
+    quit()
 
 # Parse scummvm.ini file
 scummvm_ini = configparser.ConfigParser()
